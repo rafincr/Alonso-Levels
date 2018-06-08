@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Mover : MonoBehaviour {
-
 	//public float speed = 10f;
 	//public float rotationSpeed = 100f;
 	// Use this for initialization
@@ -26,6 +25,7 @@ public class Mover : MonoBehaviour {
 			transform.position += new Vector3 (1, 0, 0);
 		}
 
+
 		//float translation = Input.GetAxis("Vertical") * speed;
 		//float rotation = Input.GetAxis("Horizontal") * rotationSpeed;
 		//translation *= Time.deltaTime;
@@ -33,4 +33,7 @@ public class Mover : MonoBehaviour {
 		//transform.Translate(0, 0, translation);
 		//transform.Rotate(0, rotation, 0);
 	}
+
+
+
 }
